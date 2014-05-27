@@ -12,6 +12,8 @@ LOCAL_PRELINK_MODULE := false
 
 LOCAL_ARM_MODE := arm
 
+LOCAL_CFLAGS += -fno-strict-aliasing
+
 LOCAL_SRC_FILES := \
 	cyanogen-dsp.cpp \
 	Biquad.cpp \
